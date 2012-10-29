@@ -33,17 +33,18 @@ or
 **application.js**:
 
 ```
+//= require modernizr
 //= require date-input-polyfill
 ```
 
-In addition, you must provide a `modernizr` JavaScript asset, either by building one on http://modernizr.com/download/
+You must provide the `modernizr` JavaScript asset, either by building one on http://modernizr.com/download/
 (it must include the "Input Types" feature detect) and adding it to your `vendor/assets/javascripts` directory, or using
 the [modernizr gem](https://github.com/josh/ruby-modernizr).
 
-The jQuery UI datepicker asset will automatically be provided by [jquery-ui-rails](https://github.com/joliss/jquery-ui-rails).
-You'll need to make sure you include jQuery UI stylesheet assets somehow.
+The jQuery UI datepicker JavaScript asset will automatically be provided by
+[jquery-ui-rails](https://github.com/joliss/jquery-ui-rails). You'll need to make sure you include jQuery UI stylesheet
+assets somehow.
 
 ## License
 
-Copyright 2012 Verba Software
-see MIT-LICENSE
+Copyright 2012 Verba Software, see MIT-LICENSE.
