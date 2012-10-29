@@ -1,3 +1,5 @@
+require 'rails/engine'
+
 module DateInputRails
   class Engine < ::Rails::Engine
   end

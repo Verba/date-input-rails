@@ -1,0 +1,7 @@
+<%= stylesheet_link_tag "application" %>
+<%= javascript_include_tag "application" %>
+<form action="/test">
+  <span id="date-param"><%= params[:date] %></span>
+  <%= date_field_tag :date, Date.today %>
+  <%= submit_tag "Submit" %>
+</form>

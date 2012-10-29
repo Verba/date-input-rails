@@ -16,4 +16,9 @@ Gem::Specification.new do |s|
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "jquery-rails"
   s.add_development_dependency "modernizr"
+  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency "combustion", "~> 0.3.1"
+  s.add_development_dependency "capybara", ">= 2.0.0.beta"
+  s.add_development_dependency "capybara-firebug"
+  s.add_development_dependency "chromedriver-helper"
 end
