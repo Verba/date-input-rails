@@ -1,0 +1,6 @@
+<%= stylesheet_link_tag "application" %>
+<%= javascript_include_tag "application" %>
+<%= form_for @test do |f| %>
+  <%= f.date_field :date, :name => "date", :id => "date" %>
+  <%= f.submit "Submit" %>
+<% end %>
