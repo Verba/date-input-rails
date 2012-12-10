@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'bundler'
 require 'rails'
+require 'action_view/railtie'
 
 Bundler.require :default, :development
 
