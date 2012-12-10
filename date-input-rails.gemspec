@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "date-input-rails"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.authors     = ["John Firebaugh"]
   s.email       = ["john.firebaugh@verbasoftware.com"]
   s.homepage    = "https://github.com/Verba/date-input-rails"
